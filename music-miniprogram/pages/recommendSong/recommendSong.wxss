@@ -1,0 +1,83 @@
+.recommendSongContainer .header{
+  width: 100%;
+  height: 350rpx;
+  position: relative;
+}
+.recommendSongContainer .header image{
+  width: 100%;
+  height: 100%;
+  /* opacity: 0.8; */
+}
+.recommendSongContainer .header .dateContainer{
+  background-color: #d43c33;
+  border-radius: 15rpx;
+  opacity: 0.4;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -150rpx;
+  margin-top: -100rpx;
+  width: 300rpx;
+  height: 200rpx;
+}
+.recommendSongContainer .header .date{
+  position: absolute;
+  top: 75rpx;
+  left: 275rpx;
+  text-align: center;
+  line-height: 200rpx;
+  color: white;
+  font-size: 108rpx;
+}
+
+.ListContainer{
+  padding: 0 20rpx;
+  position: relative;
+  top: -20rpx;
+  border-radius: 30rpx;
+  background-color: white;
+}
+
+.listHeader{
+  height: 80rpx;
+  line-height: 80rpx;
+}
+.listHeader .changeMore{
+  float: right;
+}
+.listScroll{
+  height: calc(100vh - 430rpx);
+}
+.scrollItem{
+  display: flex;
+  position: relative;
+  margin-bottom: 20rpx;
+}
+.scrollItem image{
+  height: 80rpx;
+  width: 80rpx;
+  border-radius: 8rpx;
+}
+.musicInfo{
+  display: flex;
+  flex-direction: column;
+  margin-left: 20rpx;
+}
+.musicInfo text{
+  height: 40rpx;
+  line-height: 40rpx;
+  font-size: 24rpx;
+  max-width: 500rpx;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.scrollItem .iconfont{
+  position: absolute;
+  right: 0;
+  width: 80rpx;
+  height: 80rpx;
+  line-height: 80rpx;
+  text-align: right;
+}
